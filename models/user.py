@@ -1,17 +1,19 @@
 #!/usr/bin/python3
-"""First user module"""
-
+"""Defines the User class."""
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """First user class"""
+    """Represent a User.
 
-    email = ''
-    password = ''
-    first_name = ''
-    last_name = ''
+    Attributes:
+        email (str): The email of the user.
+        password (str): The password of the user.
+        first_name (str): The first name of the user.
+        last_name (str): The last name of the user.
+    """
 
-    def __init__(self, *args, **kwargs):
-        """initialize the first user"""
-        super().__init__(*args, **kwargs)
+    email = ""
+    password = ""
+    first_name = ""
+    last_name = ""
