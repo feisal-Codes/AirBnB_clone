@@ -1,12 +1,18 @@
 footer {
-    background: white;
+    display: flex;
+    border-top: 1px solid #CCCCCC;
     height: 60px;
     width: 100%;
-    border-top: 1px solid #CCCCCC;
+    background-color: white;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 0;
     position: fixed;
-    bottom: 0px;
-    /* with these three variables we can center exactly the content*/
+}
+
+.footText {
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
