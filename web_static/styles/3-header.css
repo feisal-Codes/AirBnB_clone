@@ -1,0 +1,11 @@
+header {
+    background: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    /* logo in the background no repeat and position
+    first value is left or right and second is top or bottom*/
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}

@@ -1,0 +1,33 @@
+section.filters {
+    background: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    position: relative;
+}
+
+.filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    /*position absolute because we use a relative position in the section
+    in order to the buttom be restricted inside the section*/
+    position: absolute;
+    /*11px for margin-top because 70px of section height and 48px
+    of button height so ecuation 70 = 48 + 2x in order to keep it in center
+    so x = 11px*/
+    margin-top: 11px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filters button:hover {
+    opacity: 0.9;
+}
